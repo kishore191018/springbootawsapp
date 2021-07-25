@@ -11,7 +11,7 @@ public class AwsDemoTestController {
 	@RequestMapping(value = "name", method = RequestMethod.GET)
 	public String getName() {
 
-		return "Welcome to AWS Lokesh Reddy name!!";
+		return "Lokesh Reddy";
 	}
 
 	@GetMapping("/name1")
